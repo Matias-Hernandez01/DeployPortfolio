@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Contact, Home, Aboutme, Projects, Tecnologias } from './view';
-import { useLocation } from 'react-router-dom';
 const App: React.FC = () => {
   return (
     <BrowserRouter>
